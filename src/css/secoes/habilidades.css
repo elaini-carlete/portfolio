@@ -1,0 +1,101 @@
+.habilidades .container-habilidades {
+    justify-content: center;
+    align-items: start;
+    gap: 80px;
+}
+
+.habilidades .container-habilidades .habilidade {
+    width: 350px;
+    height: 500px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    transition: ease-in 0.4s;
+}
+
+.habilidades .container-habilidades .habilidade:hover{
+    width: 360px;
+    height: 510px;
+}
+
+.habilidades .container-habilidades .habilidade ul li,
+.habilidades .container-habilidades .habilidade h3,
+.habilidades .container-habilidades .habilidade .logo i {
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+.habilidades .container-habilidades .habilidade.html,
+.habilidades .container-habilidades .habilidade.html h3{
+    border: 1px solid #ee7722;
+}
+.habilidades .container-habilidades .habilidade.html:hover{
+    color: #ee7722;
+}
+
+.habilidades .container-habilidades .habilidade.css,
+.habilidades .container-habilidades .habilidade.css h3{
+    border: 1px solid #49a2fa;
+}
+.habilidades .container-habilidades .habilidade.css:hover{
+    color: #49a2fa;
+}
+
+.habilidades .container-habilidades .habilidade.git,
+.habilidades .container-habilidades .habilidade.git h3{
+    border: 1px solid #fc5344;
+}
+.habilidades .container-habilidades .habilidade.git:hover{
+    color: #fc5344;
+}
+
+.habilidades .container-habilidades .habilidade.github,
+.habilidades .container-habilidades .habilidade.github h3{
+    border: 1px solid #9c28e9;
+}
+.habilidades .container-habilidades .habilidade.github:hover{
+    color: #9c28e9;
+}
+
+.habilidades .container-habilidades .habilidade.javascript,
+.habilidades .container-habilidades .habilidade.javascript h3{
+    border: 1px solid #f7ed2f;
+}
+.habilidades .container-habilidades .habilidade.javascript:hover{
+    color: #f7ed2f;
+}
+
+.habilidades .container-habilidades .habilidade.react,
+.habilidades .container-habilidades .habilidade.react h3{
+    border: 1px solid #3185d9;
+}
+.habilidades .container-habilidades .habilidade.react:hover{
+    color: #3185d9;
+}
+
+.habilidades .container-habilidades .habilidade h3{
+    font-size: var(--fonte-extra-grande);
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.habilidades .container-habilidades .habilidade .descricao ul li{
+    font-size: 1.8rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.habilidades .container-habilidades .habilidade .logo i {
+    font-size: 8rem;
+}
+
+.habilidades .container-habilidades .habilidade ul li{
+    padding: 2px;
+}
