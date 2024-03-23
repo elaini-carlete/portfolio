@@ -1,12 +1,11 @@
-.habilidades .container-habilidades {
+.container-habilidades {
+    display: flex;
     justify-content: center;
-    align-items: start;
-    gap: 80px;
+    gap: 50px;
 }
 
 .habilidades .container-habilidades .habilidade {
     width: 350px;
-    height: 500px;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -17,8 +16,7 @@
 }
 
 .habilidades .container-habilidades .habilidade:hover{
-    width: 360px;
-    height: 510px;
+    transform: scale(1.05);
 }
 
 .habilidades .container-habilidades .habilidade ul li,
