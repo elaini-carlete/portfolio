@@ -6,11 +6,11 @@ Este portfólio apresenta minhas informações pessoais, redes sociais, habilida
 - CSS
 
 ### Desktop Preview
-![]()
+![](./src/design/portfolio-desktop.gif)
 
 
 ### Mobile Preview
 
-![]()
+![](./src/design/portfolio-mobile.gif)
 
  
