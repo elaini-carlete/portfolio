@@ -76,6 +76,14 @@
     color: #3185d9;
 }
 
+.habilidades .container-habilidades .habilidade.typescript,
+.habilidades .container-habilidades .habilidade.typescript h3{
+    border: 1px solid #071523;
+}
+.habilidades .container-habilidades .habilidade.typescript:hover{
+    color: #071523;
+}
+
 .habilidades .container-habilidades .habilidade h3{
     font-size: var(--fonte-extra-grande);
     font-weight: 500;
