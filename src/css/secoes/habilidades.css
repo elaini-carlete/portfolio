@@ -21,7 +21,7 @@
 
 .habilidades .container-habilidades .habilidade ul li,
 .habilidades .container-habilidades .habilidade h3,
-.habilidades .container-habilidades .habilidade .logo i {
+.habilidades .container-habilidades .habilidade .logo {
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -84,6 +84,14 @@
     color: #95caff;
 }
 
+.habilidades .container-habilidades .habilidade.tailwind,
+.habilidades .container-habilidades .habilidade.tailwind h3{
+    border: 1px solid #67e4cd;
+}
+.habilidades .container-habilidades .habilidade.tailwind:hover{
+    color: #67e4cd;
+}
+
 .habilidades .container-habilidades .habilidade h3{
     font-size: var(--fonte-extra-grande);
     font-weight: 500;
@@ -98,7 +106,7 @@
     font-family: var(--fonte-secundaria);
 }
 
-.habilidades .container-habilidades .habilidade .logo i {
+.habilidades .container-habilidades .habilidade .logo {
     font-size: 8rem;
 }
 
