@@ -12,5 +12,3 @@ Este portfólio apresenta minhas informações pessoais, redes sociais, habilida
 ### Mobile Preview
 
 ![](./src/design/portifolio-mobile.gif)
-
- 
