@@ -4,11 +4,3 @@ Este portfólio apresenta minhas informações pessoais, redes sociais, habilida
 ### Tecnologias
 - HTML
 - CSS
-
-### Desktop Preview
-![](./src/design/portifolio.gif)
-
-
-### Mobile Preview
-
-![](./src/design/portifolio-mobile.gif)

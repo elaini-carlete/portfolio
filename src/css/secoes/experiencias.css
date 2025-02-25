@@ -1,0 +1,12 @@
+.container-experiencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.experiencia-item {
+    border: 1px solid var(--cor-primaria);
+    border-radius: 20px;
+    padding: 20px;
+}
